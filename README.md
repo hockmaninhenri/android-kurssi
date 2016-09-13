@@ -1,2 +1,2 @@
 # android-kurssi
-Assignments for Android Application DEvelopment
+Assignments for Android Application Development
