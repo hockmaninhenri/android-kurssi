@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Basic UI Controls</string>
+    <string name="meatballs_text">Meatbools</string>
+    <string name="spaghetti_text">Spaghettioos</string>
+    <string name="fishsticks_text">Fish Sticks</string>
+    <string name="pizza_text">Pizza</string>
+    <string name="carrots_text">Carrots</string>
+</resources>
