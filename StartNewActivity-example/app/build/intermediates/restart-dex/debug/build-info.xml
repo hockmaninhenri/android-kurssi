@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="22"
+    density="420dpi"
+    format="7"
+    timestamp="20973464739816"
+    token="-8354770053170592794" >
+
+    <task
+        name="javac"
+        duration="290" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="38" />
+    <task
+        name="verifier"
+        duration="5" />
+
+    <artifact
+        location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/StartNewActivity-example/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+        type="DEX" />
+
+    <build timestamp="19149353899531" >
+        <artifact
+            location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/StartNewActivity-example/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="20799903554337"
+        verifier="FIELD_ADDED" >
+        <artifact
+            location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/StartNewActivity-example/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/StartNewActivity-example/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="20973464739816" >
+        <artifact
+            location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/StartNewActivity-example/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

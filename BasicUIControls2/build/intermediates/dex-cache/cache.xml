@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_808047d25a86e577472b3aec9eb0b03f7fe4c781/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_220e25fde42e1b1b3e05517e8681a2de04f9e0c5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_33895fe9604904a413c93eaa7712bb3d73bc3e12/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_319b4084d338b0493e5a8b8c57d727195cd0458d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_35b4b8261a4fbbea00756f0addb374826e02dccf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="014ab5e31d72a577e3eaa75c71078f0914d4e251">
+        <dex dex="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8c6c194dc5a11715a1467573ffdb8d8bb95c386a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Henkka/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_4c35916172c87fdf5ef178bef7aa686bd1ae3829/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e4f9414306c7b73f64e5f8c4dc305ede028d4bc3">
+        <dex dex="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2a5302a05dc07c0749fa8dd57a50866e2ea8607b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_21803b545cc62a02cc6c7b17bdb754fc6e12f826/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_b8e306c6b0ad02434c284dbef979ed59477bc641/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_c547a2e9126bddf591fc9b7d52a052e329eca9b5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_7e43154bd2aa89d04f5786d6103f46e3d3cae28f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_ef6702e3f58713641e81dde309b4f0b3c3f00a3e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_aff9e1a7f3f16460a9416f97b9dd33604b708120/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_3a3c93b829611987edde0720378459ef10ef5433/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_ec95668cd20836a9af68e574b044b99645374bc2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_4477f608475e7b7531fa8e0310856cbcfbc9af83/classes.dex" />
+    </item>
+
+</items>
