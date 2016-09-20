@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/MapLauncher/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="33f2cd3fa06929e5a50c889ec125740f72a76e44">
+        <dex dex="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/MapLauncher/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d65aa7f037dfb150e88a84fa5c9b679f1aa8b0f2/classes.dex" />
+    </item>
+
+</items>
