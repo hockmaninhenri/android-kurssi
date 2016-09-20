@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="22"
+    density="420dpi"
+    format="7"
+    timestamp="40892318941473"
+    token="-4979443530558061247"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="248" />
+    <task
+        name="instant-run-dex"
+        duration="435" />
+    <task
+        name="instant-run-transform"
+        duration="49" />
+    <task
+        name="verifier"
+        duration="4" />
+
+    <artifact
+        location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="40325071863276" >
+        <artifact
+            location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="40531091142318" >
+        <artifact
+            location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="40760763466404"
+        verifier="METHOD_ADDED" >
+        <artifact
+            location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="40892318941473"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

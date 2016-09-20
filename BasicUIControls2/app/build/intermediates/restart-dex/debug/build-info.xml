@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="22"
+    density="420dpi"
+    format="7"
+    timestamp="44501320899509"
+    token="-5885536708584733876"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="331" />
+    <task
+        name="instant-run-dex"
+        duration="427" />
+    <task
+        name="instant-run-transform"
+        duration="38" />
+    <task
+        name="verifier"
+        duration="4" />
+
+    <artifact
+        location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="42309438722532" >
+        <artifact
+            location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="44501320899509"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls2/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,1 @@
+CHANGED,/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/BasicUIControls/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/fi/jamk/basicuicontrols/MainActivity.class
