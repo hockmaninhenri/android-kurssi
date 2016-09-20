@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="22"
+    density="420dpi"
+    format="7"
+    timestamp="53535116341540"
+    token="-908319640563525408" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/MapLauncher/app/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
+
+    <build timestamp="53292319892878" >
+        <artifact
+            location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/MapLauncher/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="53535116341540" >
+        <artifact
+            location="/Users/Henkka/Documents/Koulu/Mediatekniikka-vuosi-3/Android/MapLauncher/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+
+</instant-run>
