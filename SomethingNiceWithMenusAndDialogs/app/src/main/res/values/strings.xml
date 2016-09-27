@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Something Nice With Menus And Dialogs</string>
+    <string name="app_name_alt">Something Nice -app</string>
+    <string name="info">Please tap action bar icons.</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_favorite">Favorite</string>
+
+    <string name="dialog_title">What you want to do?</string>
+    <string name="dialog_exit">Did you misclick?</string>
+    <string name="dialog_yes">I want to leave.</string>
+    <string name="dialog_cancel">No, I don\'t want to leave.</string>
+
+    <string name="dialog_title2">Are you sure?</string>
+    <string name="dialog_exit2">Are you really going to leave?</string>
+    <string name="dialog_yes2">Let me out!</string>
+    <string name="dialog_cancel2">No, I don\'t want to leave.</string>
+</resources>
