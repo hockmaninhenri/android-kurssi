@@ -5,10 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="8dip"
-    android:background="@drawable/widgetshape">
+    android:background="@drawable/widgetshape"
+    android:weightSum="1">
 
     <TextView
-        android:id="@+id/update"
+        android:id="@+id/TextView02"
+        style="@android:style/TextAppearance.Medium"
+        android:text="@string/widgetText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_margin="4dip" />
+
+    <TextView
+        android:id="@+id/TextView04"
         style="@android:style/TextAppearance.Medium"
         android:text="@string/widgetText"
         android:layout_width="match_parent"
