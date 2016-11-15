@@ -1,5 +1,4 @@
-# mobile-project
-Android Application Development course.
+# Android Application Development course.
 
 Project group consists of three students:
 - Henri Hockman
