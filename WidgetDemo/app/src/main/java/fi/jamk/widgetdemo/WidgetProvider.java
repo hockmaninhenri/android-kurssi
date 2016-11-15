@@ -15,12 +15,17 @@ import java.util.Random;
 
 public class WidgetProvider extends AppWidgetProvider {
     private static final String ACTION_CLICK = "ACTION_CLICK";
-    //public TextView latituteField = (TextView) findViewById(R.id.TextView02);
+
+
+
     //public TextView longitudeField = (TextView) findViewById(R.id.TextView04);
 
     @Override
     public void onUpdate(Context context, AppWidgetManager appWidgetManager,
                          int[] appWidgetIds) {
+
+        String lat = MainActivity.getLat();
+        String lng = MainActivity.getLng();
 
         // Get all ids
         ComponentName thisWidget = new ComponentName(context,
@@ -31,13 +36,19 @@ public class WidgetProvider extends AppWidgetProvider {
 
 
 
-            Intent widget = new Intent(context, MainActivity.class);
-            PendingIntent pendingIntent1 = PendingIntent.getActivity(context, 0, widget, 0);
+            Intent widget = new Intent(context, WidgetProvider.class);
+            PendingIntent pendingIntent1 = PendingIntent.getBroadcast(context, 0, widget, PendingIntent.FLAG_UPDATE_CURRENT);
 
             // Get the layout for the App Widget and attach an on-click listener
             // to the button
             RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.widget_layout);
-            views.setTextViewText(R.id.TextView02, String.valueOf(MainActivity.getLatituteField()));
+            views.setTextViewText(R.id.TextView02, "Latitude: " + String.valueOf(lat));
+            views.setTextViewText(R.id.TextView04, "Longitude: " + String.valueOf(lng));
+            widget.setAction(AppWidgetManager.ACTION_APPWIDGET_UPDATE);
+            widget.putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, appWidgetIds);
+            views.setOnClickPendingIntent(R.id.button2, pendingIntent1);
+            //views.setOnClickPendingIntent(R.id.button2, pendingIntent1);
+
 
             // Tell the AppWidgetManager to perform an update on the current app widget
             appWidgetManager.updateAppWidget(widgetId, views);

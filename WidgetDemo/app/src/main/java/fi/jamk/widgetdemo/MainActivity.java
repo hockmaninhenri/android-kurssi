@@ -15,8 +15,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity implements LocationListener {
-    public static TextView latituteField;
-    public TextView longitudeField;
+    private static TextView latitudeField;
+    private static TextView longitudeField;
     private LocationManager locationManager;
     private String provider;
 
@@ -25,7 +25,7 @@ public class MainActivity extends Activity implements LocationListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.widget_layout);
-        latituteField = (TextView) findViewById(R.id.TextView02);
+        latitudeField = (TextView) findViewById(R.id.TextView02);
         longitudeField = (TextView) findViewById(R.id.TextView04);
 
         // Get the location manager
@@ -51,18 +51,11 @@ public class MainActivity extends Activity implements LocationListener {
             System.out.println("Provider " + provider + " has been selected.");
             onLocationChanged(location);
         } else {
-            latituteField.setText("Location not available");
+            latitudeField.setText("Location not available");
             longitudeField.setText("Location not available");
         }
     }
 
-    public static TextView getLatituteField() {
-        return latituteField;
-    }
-
-    public TextView getLongitudeField() {
-        return longitudeField;
-    }
 
     /* Request updates at startup */
     @Override
@@ -100,10 +93,20 @@ public class MainActivity extends Activity implements LocationListener {
 
     @Override
     public void onLocationChanged(Location location) {
-        int lat = (int) (location.getLatitude());
-        int lng = (int) (location.getLongitude());
-        latituteField.setText(String.valueOf(lat));
+        double lat = (double) (location.getLatitude());
+        double lng = (double) (location.getLongitude());
+        latitudeField.setText(String.valueOf(lat));
         longitudeField.setText(String.valueOf(lng));
+    }
+
+    public static String getLat() {
+        String latText = latitudeField.getText().toString();
+        return latText;
+    }
+
+    public static String getLng() {
+        String lngText = longitudeField.getText().toString();
+        return lngText;
     }
 
     @Override
