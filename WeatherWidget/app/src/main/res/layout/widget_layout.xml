@@ -4,29 +4,83 @@
     android:layout_height="match_parent"
     android:padding="5dp"
     >
+
     <TextView
+        android:padding="5dp"
         android:id="@+id/tv_temperature"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Temp"
-        android:background="@drawable/bg_red"
+        android:text="Fetching..."
         android:textColor="@android:color/white"
         android:fontFamily="sans-serif-condensed"
         android:textSize="16dp"
-        android:clickable="true"
+        android:background="@drawable/bg_red"
+
         />
+
+    <LinearLayout
+        android:padding="5dp"
+        android:id="@+id/wrapper"
+        android:layout_width="wrap_content"
+        android:layout_alignRight="@id/tv_temperature"
+        android:layout_height="wrap_content"
+
+
+        android:clickable="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_weather"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Conditions:"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="14dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/max_temp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Max temp:"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="14dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/min_temp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Min temp:"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="14dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
     <TextView
         android:id="@+id/tv_humidity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="7dp"
-        android:text="H"
-        android:layout_marginLeft="-8dp"
+        android:text="..."
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="20dp"
         android:gravity="center"
         android:textColor="#ffffff"
-        android:background="@drawable/bg_humidity"
-        android:layout_toRightOf="@id/tv_temperature"
+        android:background="@drawable/bg_city"
+        android:layout_toRightOf="@id/wrapper"
         android:clickable="true"
         />
 </RelativeLayout>

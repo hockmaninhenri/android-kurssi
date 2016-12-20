@@ -13,6 +13,7 @@ import android.util.Log;
 import android.widget.RemoteViews;
 import android.widget.Toast;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -29,7 +30,7 @@ public class WeatherWidget extends AppWidgetProvider {
     // mURLString = "http://api.openweathermap.org/data/2.5/weather?q=khulna,bd&APPID=YourAppID";
     private String mURLRoot = "http://api.openweathermap.org/data/2.5/weather?q=";
     private String mAppID = "&APPID=782b433405088b411f8cc3111176398a";
-    private String mURLString = mURLRoot+mCity+","+mCountry+mAppID;
+    private String mURLString = mURLRoot+mCity+","+mCountry+"&units=metric"+mAppID;
 
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds){
         /*
@@ -163,20 +164,31 @@ public class WeatherWidget extends AppWidgetProvider {
                     // Process JSON data
                     // Get the full HTTP Data as JSONObject
                     JSONObject reader= new JSONObject(stream);
-                    // Get the JSONObject "coord"...........................
+                    // Get the JSONObject "coord"....
                     JSONObject coord = reader.getJSONObject("main");
-                    // Get the value of key "temp" under JSONObject "main"
+                    // Get weather JSONObject
+                    //JSONArray weather = reader.getJSONArray("weather");
+                    // Get the temperature under "main"
                     String temperature = coord.getString("temp");
+                    String max_temp = coord.getString("max_temp");
+                    String min_temp = coord.getString("min_temp");
+                    //String condition = weather[].getString("main");
                     // Get the value of key "humidity" under JSONObject "main"
                     String humidity = coord.getString("humidity");
                     String city = reader.getString("name");
-                    Double celsius = getCelsiusFromKelvin(temperature);
-                    temperature ="" + celsius + " " + (char) 0x00B0+"C";
+                    temperature ="" + temperature + " " + (char) 0x00B0+"C";
+                    max_temp ="" + max_temp + " " + (char) 0x00B0+"C";
+                    min_temp ="" + min_temp + " " + (char) 0x00B0+"C";
+
                     Log.d("Temp",temperature);
+                    Log.d("City",city);
 
                     // Display weather data on widget
                     remoteViews.setTextViewText(R.id.tv_temperature, temperature);
-                    remoteViews.setTextViewText(R.id.tv_humidity, "H: " + humidity + " %");
+                    remoteViews.setTextViewText(R.id.tv_humidity, city);
+                    remoteViews.setTextViewText(R.id.min_temp, min_temp);
+                    remoteViews.setTextViewText(R.id.max_temp, max_temp);
+                    //remoteViews.setTextViewText(R.id.tv_weather, condition);
 
                     // Apply the changes
                     appWidgetManager.updateAppWidget(watchWidget, remoteViews);
@@ -186,18 +198,6 @@ public class WeatherWidget extends AppWidgetProvider {
             }
         } // onPostExecute() end
     } // ProcessJSON class end
-
-    // Method to get celsius value from kelvin
-    public Double getCelsiusFromKelvin(String kelvinString){
-        Double kelvin = Double.parseDouble(kelvinString);
-        Double numberToMinus = 273.15;
-        Double celsius = kelvin - numberToMinus;
-        // Rounding up the double value
-        // Each zero (0) return 1 more precision
-        // Precision means number of digits after dot
-        celsius = (double)Math.round(celsius * 10) / 10;
-        return celsius;
-    }
 
     // Custom method to check internet connection
     public Boolean isInternetConnected(){
